@@ -12,6 +12,7 @@ public class WordMapper extends Mapper<Object, Text, Text, IntWritable> {
  public void map(Object key, Text value, Context context_W) throws IOException, InterruptedException {
   // Convert Text to String
   String line = value.toString();
+  //sasasas
   // Clean up the string - remove all non alpha characters
   //line = line.replaceAll("[^a-zA-Z\\s]", "").toLowerCase();
   line = line.replaceAll("[^a-zA-Z0-9\\s]", "").toLowerCase();
