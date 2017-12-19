@@ -6,7 +6,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
  
  
- 
+ // deenmemdedede
 public class SumReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
   
  private IntWritable totalWordCount = new IntWritable();
